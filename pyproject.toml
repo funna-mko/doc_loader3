@@ -1,0 +1,16 @@
+[project]
+name = "doc-loader3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"numpy>=2.3.5",
+	"pillow>=12.0.0",
+	"pymupdf>=1.26.6",
+	"pytest>=8.3",
+	"scipy>=1.16.3",
+]
+
+[tool.setuptools]
+packages = ["ImageExtraction"]
